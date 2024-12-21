@@ -14,20 +14,20 @@
     <h1>World Clock</h1>
 
 
-    <select>
+    <select id="cityOptions">
         <option value="">select a city...</option>
         <option value="">Your local time</option>
-        <option value="">Manila</option>
-        <option value="">Sydney</option>
-        <option value="">Riyadh</option>
-        <option value="">Kuala Lumpur</option>
-        <option value="">Toronto</option>
-        <option value="">Qatar</option>
-        <option value="">Seoul</option>
-        <option value="">Honolulu</option>
-        <option value="">Turkey</option>
+        <option value="Asia/Manila">Manila</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Asia/Riyadh">Riyadh</option>
+        <option value="Asia/Kuala_Lumpur">Kuala Lumpur</option>
+        <option value="America/Toronto">Toronto</option>
+        <option value="Asia/Qatar">Qatar</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Pacific/Honolulu">Honolulu</option>
+        <option value="Turkey">Turkey</option>
     </select>
-<div class="selectionOutput">
+<div id="selectionOutput">
         <div class="city" id="Dubai">
             <div>
                 <h2>
@@ -37,7 +37,7 @@
             </div>
             <div class="time">3:54:15 <small>PM</small></div>
         </div>
-        </div>
+        
         <div class="city" id="NewYork">
             <div>
                 <h2>
@@ -77,6 +77,7 @@
     </div>
     </div>
     </div>
+</div>
     <br>
     <br>
     <br>
