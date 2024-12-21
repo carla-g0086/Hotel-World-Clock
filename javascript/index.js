@@ -73,6 +73,9 @@ let parisDateElement = parisElement.querySelector(".date");
 
 function updateCity(event){
     let cityTimeZone=event.target.value;
+    if (cityTimeZone==="current"){
+        cityTimeZone=moment.tz.guess();
+    }
     let cityName=cityTimeZone.replace("_"," ").split("/")[1];
     let cityTime=moment().tz(cityTimeZone);
     let citiesElement=document.querySelector("#selectionOutput");
@@ -105,7 +108,7 @@ function updateCity(event){
         <br>
         <br>
         <br>
-        <div> <marquee>  🎄🎄🎄🎄🎄🎄🎅🤶🎄 M E R R Y 💗💗 C H R I S T M A S 🎄🎅🤶🎄🎄🎄🎄🎄🎄 </marquee> <font-size="100%"> </div>
+        <div> <marquee>  🎄🎄🎄🎄🎄🎄🎅🤶🎄 M E R R Y 💗💗 C H R I S T M A S 🎄🎅🤶🎄🎄🎄🎄🎄🎄 WELCOME 2025! </marquee> <font-size="100%"> </div>
     
     `;
 
