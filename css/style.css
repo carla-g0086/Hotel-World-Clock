@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/250/original/Hotel_World_Clock_%282%29.png?1734786763");
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 1000px;  
+}
+.container{
+    background: linear-gradient(
+    to bottom,
+    rgb(136, 154, 159) 0%,
+    rgba(125, 185, 232, 0) 100%
+  );
+  padding: 30px;
+  max-width: 590px;
+  display: block;
+  margin: auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.8);
+  border-radius: 16px;
+  margin: 25px auto;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: xx-large;
+  background: linear-gradient(
+    to right,
+    rgb(220, 115, 2) 0%,
+    rgb(187, 146, 71) 62%,
+    rgba(148, 145, 70, 0.7) 68%,
+    rgba(254, 232, 202, 0) 100%
+  );
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+footer{
+    font-size: small;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
