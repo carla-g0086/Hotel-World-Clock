@@ -1,4 +1,16 @@
 function updateTime(){
+  
+    //Dubai
+  let dubaiElement = document.querySelector("#Dubai");
+  let dubaiDateElement = dubaiElement.querySelector(".date");
+  let dubaiTimeElement = dubaiElement.querySelector(".time");
+  let dubaiTime = moment().tz("Asia/Dubai");
+
+  dubaiDateElement.innerHTML = dubaiTime.format("MMMM Do YYYY");
+  dubaiTimeElement.innerHTML = dubaiTime.format(
+    "h:mm:ss [<small>]A[<small>] "
+  );
+
   //New York
   let newYorkElement = document.querySelector("#NewYork");
   let newYorkDateElement = newYorkElement.querySelector(".date");
