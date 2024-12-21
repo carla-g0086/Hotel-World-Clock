@@ -85,6 +85,7 @@ function updateCity(event){
     <br>
     <br>
     <br>
+    <a href="index.html">🏠HOME-All Cities<a/>
     <br>
     <br>
     <br>
