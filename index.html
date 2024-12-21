@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/253/original/Photoroom-20241221_153307.png?1734791693">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-10-year-range.min.js"></script>
     <title>Hotel World Clock</title>
 </head>
 <body>
@@ -21,7 +23,7 @@
         <option value="">Paris</option>
     </select>
 
-        <div class="city">
+        <div class="city" id="current">
             <div>
                 <h2>
                     London
@@ -30,16 +32,16 @@
             </div>
             <div class="time">3:54:15 <small>PM</small></div>
         </div>
-        <div class="city">
+        <div class="city" id="NewYork">
             <div>
                 <h2>
-                    London
+                    New York
                 </h2>
                 <div class="date">December 21st 2024</div>
             </div>
             <div class="time">3:54:15 <small>PM</small></div>
         </div>
-        <div class="city">
+        <div class="city" id="London">
             <div>
                 <h2>
                     London
@@ -48,19 +50,19 @@
             </div>
             <div class="time">3:54:15 <small>PM</small> </div>
         </div>
-        <div class="city">
+        <div class="city" id="Paris">
             <div>
                 <h2>
-                    London
+                    Paris
                 </h2>
                 <div class="date">December 21st 2024</div>
             </div>
             <div class="time">3:54:15 <small>PM</small></div>
         </div>
-        <div class="city">
+        <div class="city" id="Tokyo">
             <div>
                 <h2>
-                    London
+                    Tokyo
                 </h2>
                 <div class="date">December 21st 2024</div>
             </div>
