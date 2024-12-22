@@ -2,7 +2,7 @@ body{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/250/original/Hotel_World_Clock_%282%29.png?1734786763");
  background-position: center; 
  background-repeat: no-repeat;
- background-attachment: fixed;
+ background-attachment: scroll;
  background-size: 1000px;  
 }
 .container{
