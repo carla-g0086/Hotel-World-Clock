@@ -101,6 +101,7 @@ function updateCity(event){
               "hh:mm"
             )} <small>${cityTime.format("A")}</small></div>
         </div>
+        <div> <marquee> <font size="15"> 🎄🎄🎄🎄🎄🎄🎅🤶🎄 <font color=red>  M E R R Y 💗💗 C H R I S T M A S </font> 🎄🎅🤶🎄🎄🎄🎄🎄🎄 WELCOME 2025!</font> </font> </marquee>  </div>
         <br>
         <br>
         <br>
@@ -109,7 +110,7 @@ function updateCity(event){
         <br>
         <br>
         <br>
-        <div> <marquee>  🎄🎄🎄🎄🎄🎄🎅🤶🎄 M E R R Y 💗💗 C H R I S T M A S 🎄🎅🤶🎄🎄🎄🎄🎄🎄 WELCOME 2025! </marquee> <font-size="100%"> </div>
+        
     
     `;
 
